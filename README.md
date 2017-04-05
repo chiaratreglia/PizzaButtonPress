@@ -8,6 +8,14 @@ First of all, wire the button up to your Arduino, using the diagram below:
 
 Secondly, upload the firmware to your Arduino.
 
-Thirdly, open up the Processing sketch and connect it to your Arduino. Make sure you specify the correct OOCSI server, channel and username.
+## Set up Buttonsendingmessages 
+
+First of all, set up variables:
+
+val (String): this is the value that is sent from the Arduino board to processing via serial port;
+OOCSI Server: define the server (e.g. oocsi.id.tue.nl)
+OOCSI Channel: define the Channel. In this case, the module communicates with pizzaChoose to this will be the selected channel.
+username: specify a username of a Twitter account owner to allow the execution of all the steps of the service.
 
 #### That's it!
+
